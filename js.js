@@ -75,7 +75,7 @@ app.get('/standort/:id', (req, res) => {
 });
 
 app.delete('/standort/:id', (req, res) => {
-  connection.query(' DELETE FROM standort WHERE id = 4 ', [req.params.id], (err, rows, fields) => {
+  connection.query(' DELETE FROM standort WHERE id = 7 ', [req.params.id], (err, rows, fields) => {
     if (!err) {
       res.send('Delete operation was successful')
       // res.send(rows)
